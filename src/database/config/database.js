@@ -4,7 +4,7 @@ const devConfig = {
   user: "postgres",
   host: "localhost",
   database: "machines",
-  password: "admin",
+  password: process.env.PASSWORD,
   port: 5432,
 };
 const pool = new Pool(devConfig);
