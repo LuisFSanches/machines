@@ -1,0 +1,28 @@
+.container {
+  max-width: 100%;
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container form button {
+  width: 70%;
+  margin-top: 5px;
+}
+
+.container .form-row {
+  display: flex;
+}
+.container .form-row .form-col {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
